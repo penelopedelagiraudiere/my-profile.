@@ -1,0 +1,107 @@
+body {
+	background-color: rgb(230,230,230);
+	color: rgb(30,30,30); 
+	font-family: 'Poiret One', cursive;
+	font-size: 19px;
+	font-weight: bold; 
+}
+
+h1 {
+	color: rgb(82,45,128);
+	font-family: 'Londrina Shadow', cursive;
+	font-weight: 700;
+	letter-spacing: 5px;
+	font-size: 40px;
+}
+
+h2 {
+	color: rgb(150,123,182);
+	font-weight: 300;
+	letter-spacing: 10px;
+	font-size: 25px;
+}
+
+h3 {
+	color: rgb(82,45,128);
+	font-family: 'Londrina Shadow', cursive;
+	font-weight: 700;
+	letter-spacing: 2px;
+	font-size: 30px;
+
+}
+
+a {
+	text-decoration: none;
+	color: rgb(82,45,128);
+	font-weight: bold;
+}
+
+a:hover {
+	color: rgb(104,149,197);
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 750px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background: white;
+	padding: 35px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 6px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+} 
+
+.btn- {
+	background-color: rgb(82,45,128);
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+}
+
+.btn-pink:hover {
+	background-color: pink;
+	color: grey;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 16px;
+}
+
+.list-inline i {
+	font-size: 40px;
+	color: rgb(82,45,128); 
+}
+
+.list-inline i:hover {
+	color: pink;
+}
+
+#introduction p {
+	margin-bottom: 35px;
+}
